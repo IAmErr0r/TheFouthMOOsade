@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_story"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jared.thefouthmoosade.ui.StoryActivity">
+
+    <Button
+        android:text="Sit there and wait for no real reason."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/choiceButton2"
+        android:backgroundTint="@android:color/background_light"/>
+
+    <Button
+        android:text="March onwards to JerMOOsalem."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/choiceButton2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/choiceButton1"
+        android:backgroundTint="@android:color/background_light"/>
+
+    <ImageView
+        android:layout_width="1sp"
+        android:layout_height="1sp"
+        app:srcCompat="@drawable/page0"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/storyImageView"/>
+
+    <TextView
+        android:text='The calvary storms in with a battle cry of “Uaccam Vult!” Quickly disrupting the MOOslim forces, the calvary turns the tide of the battle. Eventually, the enemy is broken, and the scattered remains of the MOOslim army flees. You send some men to capture them, and march into JerMOOsalem.  "+                         "You have succeeded in your holy mission, and go down in history as a great and wise ruler, known by all for being the victor in the Fourth MOOsade.'
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/storyImageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/storyTextView"
+        android:textSize="16sp"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="15dp"
+        android:lineSpacingMultiplier="1.2"/>
+</RelativeLayout>
